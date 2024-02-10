@@ -3,11 +3,79 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>WhatsApp UI Clone</title>
     <!-- Link output.css use tailwind css -->
-    <link href="Assets\Css\output.css" rel="stylesheet" type="text/css" />
+    <link href="Assets/Css/output.css" rel="stylesheet" type="text/css" />
   </head>
-  <body>
-    <h1 class="font-bold">Whats App UI</h1>
+  <body class="bg-green-300 p-10">
+    <span>
+      <h1 class="font-semibold text-center my-10 mx-20 hover:text-white">
+        WhatsAppUI Clone
+      </h1>
+    </span>
+
+    <!-- WhatsApp UI cLone -->
+    <section class="">
+      <!-- WhatsApp NavBar start  -->
+      <div class="bg-green-700 p-4 text-white">
+        <div><h1>WhatsApp</h1></div>
+        <div></div>
+      </div>
+      <!-- WhatsApp NavBar End  -->
+      <!-- WhatsApp Menu -->
+      <div class="bg-green-700 pt-2 pb-2 text-sm text-white">
+        <ul class="p-2 uppercase font-medium flex justify-between items-center">
+          <li>
+            <div class="flex items-center relative">
+              <span class="ml-3 mr-5">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="32"
+                  height="32"
+                  viewBox="0 0 24 24"
+                  class="fill-current inline-block w-6"
+                >
+                  <path
+                    fill="currentColor"
+                    d="M12 18q2.075 0 3.538-1.462Q17 15.075 17 13q0-2.075-1.462-3.538Q14.075 8 12 8Q9.925 8 8.463 9.462Q7 10.925 7 13q0 2.075 1.463 3.538Q9.925 18 12 18Zm0-2q-1.25 0-2.125-.875T9 13q0-1.25.875-2.125T12 10q1.25 0 2.125.875T15 13q0 1.25-.875 2.125T12 16Zm6-6q.425 0 .712-.288Q19 9.425 19 9t-.288-.713Q18.425 8 18 8t-.712.287Q17 8.575 17 9t.288.712Q17.575 10 18 10ZM4 21q-.825 0-1.412-.587Q2 19.825 2 19V7q0-.825.588-1.412Q3.175 5 4 5h3.15L8.7 3.325q.15-.15.337-.238Q9.225 3 9.425 3h5.15q.2 0 .388.087q.187.088.337.238L16.85 5H20q.825 0 1.413.588Q22 6.175 22 7v12q0 .825-.587 1.413Q20.825 21 20 21Z"
+                  /></svg
+              ></span>
+              Chats
+              <span
+                class="bg-white rounded-full text-black ms-2 p-1 w-4 h-4 flex items-center justify-center text-xs"
+                >10</span
+              >
+              <div class="absolute top-11 right-0.5 bg-white w-20 h-1"></div>
+            </div>
+          </li>
+          <li class="">Status</li>
+          <li class="mr-3">Contact</li>
+        </ul>
+      </div>
+      <!-- WhatsApp Menu End -->
+      <!-- WhatsApp  ChatBox -->
+      <div
+        class="bg-white ps-2 flex items-center space-x-2 pt-3 pb-2 hover:bg-gray-200"
+      >
+        <div class="border-2 border-green-800 rounded-full p-0.5">
+          <div class="bg-black rounded-full h-12 w-12"></div>
+        </div>
+        <div class="flex-1 flex items-center">
+          <div class="ml-3">
+            <h1 class="font-semibold">Umamageshwaran</h1>
+            <p class="text-sm font-light">Bro I need Some Help ...</p>
+          </div>
+        </div>
+        <div class="mr-10">
+          <h4 class="mr-3 text-sm text-green-400">04:10PM</h4>
+          <div class="flex justify-center">
+            <span
+              class="bg-green-400 rounded-full text-xs p-1 h-5 w-5 flex items-center justify-center text-white"
+              >2</span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
